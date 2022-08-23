@@ -1,0 +1,195 @@
+/**General style  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: FF, FF, FF;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/**General style  */
+
+/**Start style nav */
+.navbar-nav li a {
+    color: #212529;
+}
+
+.navbar-brand {
+    color: #212529;
+}
+
+.navbar-brand:hover {
+    color: #212529;
+}
+
+/**End style nav */
+
+
+/**style section main */
+.main .left {
+    height: 85vh;
+    text-align: center;
+}
+
+.main .left img {
+    height: 100%;
+    width: 100%;
+}
+
+.main .right .downloads {
+    margin-top: 15px;
+}
+
+.main .right .downloads div {
+    width: 180px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+/**End style main */
+
+/**Start style section abou */
+.features {
+    margin-top: 120px;
+    background-color: #b3b3b3;
+}
+
+.features .feat {
+    border-radius: 10px;
+}
+
+.features .feat i {
+    font-size: 35px;
+}
+
+/**End of style section about */
+
+/**Start style vision */
+.vision {
+    text-align: center;
+    margin-top: 120px;
+}
+
+/**End style vision */
+
+
+/**Start style service */
+.service , .proplem{
+    margin-top: 120px;
+    background-color: #b3b3b3;
+}
+
+/**End style service */
+
+
+
+/**Start style section Footer Map */
+.map form input[type="username"],
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    padding: 5px;
+}
+
+.map textarea {
+    height: 102px;
+}
+
+.map form button {
+    border-radius: 30px;
+    background-color: #b3b3b3;
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.map .svg {
+    color: var(--crimson);
+    background-color: rgb(227, 223, 223);
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.map .svg i {
+    font-size: 25px;
+}
+
+.map #mapp :nth-child(3) {
+    color: gray;
+}
+
+/*End of style map*/
+
+
+/*Style section footer*/
+.footer {
+    background-color: #b3b3b3;
+    margin-top: 120px;
+}
+
+.footer h1,
+.footer p {
+    color: white;
+    padding: 15px;
+}
+
+.footer .social {
+    color: white;
+    width: 20%;
+    margin: auto;
+}
+
+.footer .social div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/**Start style section Footer Map */
+
+
+@media (max-width:995px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .main .right {
+        width: 100%;
+        height: max-content;
+    }
+
+    .features .feat {
+        margin-top: 5px;
+    }
+    .footer .social{
+        flex-direction: column;
+    }
+}
+
+
+
